@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.parent {
+  background-color: rgb(204, 202, 202);
+  height: 100vh;
+  display: flex;
+}
+.parent .container {
+  background-color: white;
+  margin: auto;
+  height: 60%;
+  width: 19%;
+  border-radius: 30px;
+}
+
+.parent .container h1 {
+  text-align: center;
+  height: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.login {
+  display: flex;
+  /* background-color: red; */
+  flex-direction: column-reverse;
+}
+.login .username {
+  margin-bottom: 0px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 30px;
+  height: 40px;
+  background-color: rgb(235, 235, 235);
+  text-decoration: none;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+}
+.login .password {
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border: none;
+  /* outline: none; */
+  border-radius: 30px;
+  /* border-color: white; */
+  height: 40px;
+  background-color: rgb(233, 233, 233);
+  padding-left: 10px;
+}
+
+.remember {
+  margin: 22px;
+  margin-top: 10px;
+}
+.remember label {
+  margin: 5px;
+}
+.submit {
+  cursor: pointer;
+
+  background-image: linear-gradient(to right, red, rgb(189, 116, 7));
+  width: max;
+  height: 40px;
+  margin: 30px;
+  border-radius: 100px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  font-size: 20px;
+  color: white;
+  transition: 0.2s all;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+  font-weight: 7 00;
+}
+
+.submit:hover {
+  transform: scale(0.98);
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.forgotpass {
+  text-align: center;
+  font-weight: 500;
+}
